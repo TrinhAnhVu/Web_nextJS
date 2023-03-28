@@ -5,7 +5,7 @@ const nextConfig = {
 
 module.exports = {
   env:{
-    "BASE_URL": "http://localhost:3000",
+    "BASE_URL": "https://web-next-js-rust.vercel.app/",
     "MONGODB_URL": "mongodb+srv://anhvu6288:oRd1S2UX0bc6iYOn@cluster0.eigpmsx.mongodb.net/nextjs_ecommerce?retryWrites=true&w=majority",
     "ACCESS_TOKEN_SECRET": "anhvu62886446059869643916",
     "REFRESH_TOKEN_SECRET": "anhvu6288secret34804194rere065153524",

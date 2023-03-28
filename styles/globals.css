@@ -85,7 +85,7 @@ body {
   overflow-x: hidden;
 }
 
-body {
+/* body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
@@ -93,7 +93,7 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
-}
+} */
 
 a {
   color: inherit;
@@ -105,3 +105,16 @@ a {
     color-scheme: dark;
   }
 }
+
+img{
+  object-fit: cover;
+  object-position: 0 30%;
+}
+
+@import url(./loading.css);
+
+@import url(./product.css);
+
+@import url(./profile.css);
+
+@import url(./products_manager.css);
